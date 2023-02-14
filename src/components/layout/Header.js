@@ -10,11 +10,19 @@ const Header = () => {
       >
         Home
       </NavLink>
+
       <NavLink
         to="/movies"
         className={({ isActive }) => (isActive ? "text-primary" : "")}
       >
         Movie
+      </NavLink>
+
+      <NavLink
+        to="/toprated"
+        className={({ isActive }) => (isActive ? "text-primary" : "")}
+      >
+        UpcomingMovie
       </NavLink>
     </header>
   );
