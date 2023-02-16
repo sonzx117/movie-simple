@@ -10,7 +10,7 @@ const MovieCard = ({ item }) => {
   const { title, vote_average, release_date, poster_path, id } = item;
   const navigate = useNavigate();
   return (
-    <div className="movie-card flex flex-col rounded-lg p-3 bg-slate-800 text-white h-full select-none">
+    <div className="movie-card flex flex-col rounded-lg p-3 bg-slate-800 text-white h-full  select-none">
       <img
         src={tmdbAPI.image500(poster_path)}
         alt=""

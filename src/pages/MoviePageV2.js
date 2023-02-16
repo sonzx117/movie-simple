@@ -73,9 +73,7 @@ const MoviePage = () => {
           </svg>
         </button>
       </div>
-      {/* {loading && (
-        <div className="w-10 h-10 rounded-full border-4 border-primary border-t-transparent border-t-4 mx-auto animate-spin"></div>
-      )} */}
+
       {loading && (
         <div className="grid grid-cols-4 gap-10">
           {new Array(itemsPerPage).fill(0).map(() => (
